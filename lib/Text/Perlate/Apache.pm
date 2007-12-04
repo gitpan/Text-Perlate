@@ -1,4 +1,4 @@
-package Text::Perlate;
+package Text::Perlate::Apache;
 
 use 5.006;
 use strict;
@@ -57,7 +57,7 @@ sub handler {
 	}
 	return DECLINED unless -f _;  # $filename isn't a plain file.  (It's probably a directory.)
 
-	$r->print(main({
+	$r->print(Text::Perlate::main({
 		input_file => $filename,
 		params => {
 			r => $r,

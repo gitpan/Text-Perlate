@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.93';
+our $VERSION = '0.94';
 
 =pod
 
@@ -276,12 +276,11 @@ standard installation procedure.
 
 =over
 
-Version 0.93 is likely to be identical to version 1.0.  Version 1.0 may contain
+Version 0.94 is likely to be identical to version 1.0.  Version 1.0 may contain
 incompatible changes, but this is unlikely unless anyone suggests a really good
 reason.
 
-=item * Version 0.93, released 2007-12-04.  Fixed botched release (forgot to
-update MANIFEST).
+=item * Version 0.94, released 2007-12-04.  Fixed botched release.
 
 =item * Version 0.92, released 2007-12-03.  Added options skip_path and
 cache_id.  Moved repository to Git.  Added Text::Perlate::Apache.
